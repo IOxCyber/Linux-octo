@@ -5,7 +5,12 @@
 - 2 types of copyrights for OSS are `1. Copyleft licenses[^1] 2. Permissive licenses[^2]`
 - Developers of Open Source Software `By professional & Volunteers and the academic community`
 - `A Linux distribution provides an easy method` to install and manage a working Linux system eg. Ubuntu, debian, RedHat RHEL, Kali Linux, Fedora, Parrot OS etc.
--   
+
+### Red Hat Enterprise Linux:
+- `Red Hat Enterprise Linux (RHEL)` is Red Hat's production-ready, commercially supported Linux distribution. 
+- `RHEL CoreOS (RHCOS)` is not a stand-alone operating system, but it is built from RHEL components, and is then released, upgraded, and managed as part of the Red Hat OpenShift Container Platform (RHOCP) for cloud-native applications.
+- `Red Hat Universal Base Image (UBI)` is essentially a freely redistributable derivative of RHEL
+- `RHEL for Edge` is an image-based variant of RHEL, with a different deployment mechanism. RHEL provides the ability to create purpose-built operating system images through a tool called Image Builder.
 - 
 
 
