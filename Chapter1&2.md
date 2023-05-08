@@ -2,7 +2,7 @@
 ### Linux: Open source, CLI based OS.
 - In 1991, graduate student Linus Torvalds developed a UNIX-like [kernel](https://www.redhat.com/en/topics/linux/what-is-the-linux-kernel) that he named Linux, and licensed it as open source software under the GPL
 - Open source software is `software with source code that anyone can use, study, modify, and share.`
-- Open source has many benefits for the user such as `Control, Implement real world Security, Stability & Stability`
+- Open source has many benefits for the user such as `Control, Implement real world Security, Stability`
 - 2 types of copyrights for OSS are `1. Copyleft licenses[^1] 2. Permissive licenses[^2]`
 - Developers of Open Source Software `By professional & Volunteers and the academic community`
 - `A Linux distribution provides an easy method` to install and manage a working Linux system eg. Ubuntu, debian, RedHat RHEL, Kali Linux, Fedora, Parrot OS etc.
