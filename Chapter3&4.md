@@ -15,7 +15,7 @@
 - Runtime: content from a process or from the system is deleted on reboot.
 - Dynamic or variable content might be modified or appended by active processes.
 - Static content remains unchanged until explicitly edited or reconfigured.
-- 
+- hh
 
 
 
