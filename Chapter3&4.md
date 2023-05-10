@@ -22,6 +22,15 @@
 > Directory contains non-persistent process runtime data: /run
 > 
 > Directory contains installed software programs and libraries: /usr
-
+>
+> Absolute path is a fully qualified name that specifies the exact location of the file in the file system hierarchy.
+> 
+> When a user logs in and opens a command window, the initial location is typically the user's home directory.
+> 
+> One dot (.) refers to the current directory, and two dots (..) refer to the parent directory, tilde (~) refers to home directory of current user, (-) to toggle between previous & current directory.
+> 
+> cd (used to return to the current user's home directory)
+> 
+> 
 
 
