@@ -30,7 +30,40 @@
 > One dot (.) refers to the current directory, and two dots (..) refer to the parent directory, tilde (~) refers to home directory of current user, (-) to toggle between previous & current directory.
 > 
 > cd (used to return to the current user's home directory)
-> 
-> 
+
+### Make Links Between Files:
+- `ln newfile.txt /dir/newfile-hardlink.txt` To make a hardlink to file.
+- Two types of links: a hard link, or a symbolic link (sometimes called a soft link).
+> To determine whether two files are hard linked, use the ls command -i option to list each file's inode number.
+> Hard links have some limitations. First, you can use hard links only with regular files. You cannot use the ln command to create a hard link to a directory or special file.
+- `ln -s newfile.txt /dir/newfile-hardlink.txt` To make a symbolic/softlink to file.
+- Symbolic links can link two files on different file systems, can point to a directory or special file.
+- A hard link points a name to data on a storage device.
+- A symbolic link points a name to another name, which points to data on a storage device.
+
+### 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
