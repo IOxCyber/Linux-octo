@@ -35,7 +35,7 @@
 - `ln existingfile.txt /dir/newfile-hardlink.txt` To make a hardlink to file.
 - Two types of links: a hard link, or a symbolic link (sometimes called a soft link).
 > To determine whether two files are hard linked, use the ls command -i option to list each file's inode number.
-> You can use hard links only with regular files. You cannot use the ln command to create a hard link to a directory or special file or on different file system.
+> You can use hard links only with regular files. You cannot use the ln command to create a hard link to a directory or special file or on different file system (check `df` for file system).
 - 
 - `ln -s existingfile.txt /dir/newfile-hardlink.txt` To make a symbolic/softlink to file.
 - Symbolic links can link two files on different file systems, can point to a directory or special file.
