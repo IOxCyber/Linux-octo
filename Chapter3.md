@@ -42,8 +42,11 @@
 - A hard link points a name to data on a storage device.
 - A symbolic link points a name to another name, which points to data on a storage device.
 
-### 
+### Command-line Expansions:
+<img width="448" alt="image" src="https://github.com/cybersome/Linux-octo/assets/40174034/796cb226-613e-4d66-97ca-24d33594c5e9">
 
+### Pathname Expansion and Pattern Matching:
+<img width="661" alt="image" src="https://github.com/cybersome/Linux-octo/assets/40174034/76f5663e-bf8b-457a-bdf3-c58c4f92f79d">
 
 
 
