@@ -9,9 +9,9 @@
 
 ### The File-system Hierarchy:
 - `The / directory is the root directory` at the top of the file-system hierarchy
-- <img width="450" alt="image" src="https://github.com/cybersome/Linux-octo/assets/40174034/e3e00123-a664-46b0-8a6f-3ab764def18f">
-- <img width="454" alt="image" src="https://github.com/cybersome/Linux-octo/assets/40174034/47137330-38d2-4e04-ae09-9e51f44cc856">
-- <img width="452" alt="image" src="https://github.com/cybersome/Linux-octo/assets/40174034/7059bcd3-d2f1-4fa2-b48c-272e93e48c5b">
+- <img width="500" alt="image" src="https://github.com/cybersome/Linux-octo/assets/40174034/e3e00123-a664-46b0-8a6f-3ab764def18f">
+- <img width="500" alt="image" src="https://github.com/cybersome/Linux-octo/assets/40174034/47137330-38d2-4e04-ae09-9e51f44cc856">
+- <img width="500" alt="image" src="https://github.com/cybersome/Linux-octo/assets/40174034/7059bcd3-d2f1-4fa2-b48c-272e93e48c5b">
 - Persistent: content remains after a reboot. eg. config settings.
 - Runtime: content from a process or from the system is deleted on reboot.
 - Dynamic or variable content might be modified or appended by active processes.
@@ -43,28 +43,27 @@
 - A symbolic link points a name to another name, which points to data on a storage device.
 
 ### Command-line Expansions:
-<img width="448" alt="image" src="https://github.com/cybersome/Linux-octo/assets/40174034/796cb226-613e-4d66-97ca-24d33594c5e9">
+- <img width="500" alt="image" src="https://github.com/cybersome/Linux-octo/assets/40174034/796cb226-613e-4d66-97ca-24d33594c5e9">
 
 ## Brace Expansion:
 - Brace expansion is used to generate discretionary strings of characters.
-<img width="457" alt="image" src="https://github.com/cybersome/Linux-octo/assets/40174034/6f15d833-b520-482a-868c-87a70159d994">
+- <img width="500" alt="image" src="https://github.com/cybersome/Linux-octo/assets/40174034/6f15d833-b520-482a-868c-87a70159d994">
 > A practical use of brace expansion is to quickly create multiple files or directories.
 
 ## Tilde Expansion:
 - The tilde character (~), matches the current user's home directory.
-<img width="193" alt="image" src="https://github.com/cybersome/Linux-octo/assets/40174034/e9781855-db1d-40d7-8554-10a0e0b89b24">
+- <img width="500" alt="image" src="https://github.com/cybersome/Linux-octo/assets/40174034/e9781855-db1d-40d7-8554-10a0e0b89b24">
 
 ## Variable Expansion:
 - A variable acts like a named container that stores a value in memory.
-<img width="185" alt="image" src="https://github.com/cybersome/Linux-octo/assets/40174034/64d14501-7a34-454a-9403-a75dca24ebf0">
+- <img width="500" alt="image" src="https://github.com/cybersome/Linux-octo/assets/40174034/64d14501-7a34-454a-9403-a75dca24ebf0">
 > Variable names can contain only letters (uppercase and lowercase), numbers, and underscores. Variable names are case-sensitive and cannot start with a number.
 
 ## Command Expansion: `${cmd}`
-- Command substitution allows the output of a command to replace the command itself on the command line.
+- Command substitution allows the output of a command to replace the command itself on the command line. eg. echo {}
 
-
-### Pathname Expansion and Pattern Matching:
-<img width="661" alt="image" src="https://github.com/cybersome/Linux-octo/assets/40174034/76f5663e-bf8b-457a-bdf3-c58c4f92f79d">
+## Pathname Expansion and Pattern Matching:
+- <img width="500" alt="image" src="https://github.com/cybersome/Linux-octo/assets/40174034/76f5663e-bf8b-457a-bdf3-c58c4f92f79d">
 
 
 
