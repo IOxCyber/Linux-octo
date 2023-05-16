@@ -65,6 +65,8 @@
 ## Pathname Expansion and Pattern Matching:
 - <img width="500" alt="image" src="https://github.com/cybersome/Linux-octo/assets/40174034/76f5663e-bf8b-457a-bdf3-c58c4f92f79d">
 
+## Summary:
+- <img width="500" alt="image" src="https://github.com/cybersome/Linux-octo/assets/40174034/a2994dc6-cee3-4f54-a4d2-bb9d624de945">
 
 
 
