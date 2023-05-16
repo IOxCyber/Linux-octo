@@ -59,8 +59,8 @@
 - <img width="500" alt="image" src="https://github.com/cybersome/Linux-octo/assets/40174034/64d14501-7a34-454a-9403-a75dca24ebf0">
 > Variable names can contain only letters (uppercase and lowercase), numbers, and underscores. Variable names are case-sensitive and cannot start with a number.
 
-## Command Expansion: `${cmd}`
-- Command substitution allows the output of a command to replace the command itself on the command line. eg. echo {}
+## Command Expansion: `$(cmd)`
+- Command substitution allows the output of a command to replace the command itself on the command line. eg. echo $(cmd)
 
 ## Pathname Expansion and Pattern Matching:
 - <img width="500" alt="image" src="https://github.com/cybersome/Linux-octo/assets/40174034/76f5663e-bf8b-457a-bdf3-c58c4f92f79d">
