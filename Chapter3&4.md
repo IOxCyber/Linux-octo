@@ -68,6 +68,11 @@
 ## Summary:
 - <img width="500" alt="image" src="https://github.com/cybersome/Linux-octo/assets/40174034/a2994dc6-cee3-4f54-a4d2-bb9d624de945">
 
+# Chapter 4:
+## Manuals & Help in Linux Cmds: `man cmd_name`
+- <img width="500" alt="image" src="https://github.com/cybersome/Linux-octo/assets/40174034/2c780501-af25-4543-b838-743d1c2bede6">
+## Search for man Pages by Keyword:
+- `man -k Keyword` or `apropos keyword`, run `mandb` before searching.
 
 
 
