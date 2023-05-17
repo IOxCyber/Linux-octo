@@ -73,8 +73,11 @@
 - <img width="500" alt="image" src="https://github.com/cybersome/Linux-octo/assets/40174034/2c780501-af25-4543-b838-743d1c2bede6">
 ## Search for man Pages by Keyword:
 - `man -k Keyword` or `apropos keyword`, run `mandb` before searching.
-
-
+- `whereis` Locate the binary, source, and manual pages.
+-  `man -t cmd` option prepares a man page for printing, using by default PostScript.
+- `evince` to view the file.
+- `lp file` to print file page on printer.
+- 
 
 
 
