@@ -17,5 +17,9 @@
 
 > To discard the output of a process, you can redirect to the empty `/dev/null` special file.
 
-
-
+## Edit Text Files from the Shell Prompt:
+- [Vimtutor](http://www2.geog.ucl.ac.uk/~plewis/teaching/unix/vimtutor)
+- Edit: `vim file_name`
+- Exit without saved changes: Esc + `:!q`
+- Save & Exit: `:wq`
+- 
