@@ -22,4 +22,29 @@
 - Edit: `vim file_name`
 - Exit without saved changes: Esc + `:!q`
 - Save & Exit: `:wq`
-- 
+
+
+### Change the Shell Environment
+
+## Shell Variable Usage: `$VAR=value`
+- Can set shell variables to help to run commands or to modify the behavior of the shell.
+- Shell variables are unique to a particular shell session. eg. If you have two terminal windows open, or two independent login sessions to the same remote server, then you are running two shells.
+- change affects only the shell that you run the command in, not any other shells that you might be running on that server.
+
+Set the Default Text Editor: `export EDITOR=nano`
+- The EDITOR environment variable specifies your default text editor for command-line programs. 
+
+
+## Bash Aliases: 
+### Set Alias: `alias 'Text=command'`
+- Bash aliases are shortcuts to other Bash commands. 
+- eg. alias hello='echo "Hello, this is a long string."'
+
+### unset Alias:
+- `unset VAR`
+- `unalias `Text``
+
+
+
+
+
