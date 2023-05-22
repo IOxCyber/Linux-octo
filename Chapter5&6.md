@@ -20,20 +20,18 @@
 ## Edit Text Files from the Shell Prompt:
 - [Vimtutor](http://www2.geog.ucl.ac.uk/~plewis/teaching/unix/vimtutor)
 - Edit: `vim file_name`
-- Exit without saved changes: Esc + `:!q`
+- Exit without saved changes: `Esc + :!q` or `Shift+ZZ`
 - Save & Exit: `:wq`
-
+- `shift+v` (block mode of Vim/to select) & `press x` to delete
+- `Uppercase V` (visual line mode of Vim/select a line)
 
 ### Change the Shell Environment
 
 ## Shell Variable Usage: `$VAR=value`
-- Can set shell variables to help to run commands or to modify the behavior of the shell.
-- Shell variables are unique to a particular shell session. eg. If you have two terminal windows open, or two independent login sessions to the same remote server, then you are running two shells.
-- change affects only the shell that you run the command in, not any other shells that you might be running on that server.
+- Shell variables can help you to run commands, and are unique to a shell session.
 
 Set the Default Text Editor: `export EDITOR=nano`
 - The EDITOR environment variable specifies your default text editor for command-line programs. 
-
 
 ## Bash Aliases: 
 ### Set Alias: `alias 'Text=command'`
@@ -42,9 +40,13 @@ Set the Default Text Editor: `export EDITOR=nano`
 
 ### unset Alias:
 - `unset VAR`
-- `unalias `Text``
+- `unalias 'Text'`
 
+> ls -R Directory_path
+> ls -l File_Name
 
+## Back up and append the date:
+- cp $file_var fileWithDate_$(date +%s).txt
 
 
 
