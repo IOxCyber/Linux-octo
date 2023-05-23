@@ -16,4 +16,26 @@
 - 
 ### To check if USer is has Sudo privileges:
 - `sudo -v` or `sudo --validate` (echo $? ->> 0 then User is sudoer)
+- The `/etc/sudoers` file is the main configuration file for the sudo command.
+
+## Gain Superuser Access:
+- Switch User Accounts `su user_name`
+- `sudo` is to log by default all the executed commands to `/var/log/secure`.
+
+## Enable or disable sudo access:
+<img width="500" alt="image" src="https://github.com/cybersome/Linux-octo/assets/40174034/6cd3c434-acf3-4f2a-818c-129c260255ae">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
