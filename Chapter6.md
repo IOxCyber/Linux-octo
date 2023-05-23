@@ -22,12 +22,28 @@
 - Switch User Accounts `su user_name`
 - `sudo` is to log by default all the executed commands to `/var/log/secure`.
 
+> ls -l /home - List out the home dir of all available users.
+
 ## Enable or disable sudo access:
 <img width="500" alt="image" src="https://github.com/cybersome/Linux-octo/assets/40174034/6cd3c434-acf3-4f2a-818c-129c260255ae">
 
+## Manage Local Users:
+## Create a User:
+- `useradd username` command creates a user called username.
 
+## Delete a User:
+- `userdel username` command removes the username user from /etc/passwd, but leaves the user's home directory intact.
+- `userdel -r username` command removes the user from /etc/passwd and deletes the user's home directory.
+- <img width="500" alt="image" src="https://github.com/cybersome/Linux-octo/assets/40174034/e31d7297-d812-49b9-b43e-d350a2469131">
 
+## Modify Existing Users from the Command Line:
+- <img width="500" alt="image" src="https://github.com/cybersome/Linux-octo/assets/40174034/98ea1ecb-54c9-4eec-82f3-cfcdf9fc4b08">
 
+## Set Passwords from the Command Line:
+- `root` user can change password of any other user with current password.
+
+## UID ranges: `id`
+- <img width="500" alt="image" src="https://github.com/cybersome/Linux-octo/assets/40174034/0aad5c1d-84ca-47f9-85fe-2f18296e146f">
 
 
 
