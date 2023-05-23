@@ -37,6 +37,8 @@
 - <img width="500" alt="image" src="https://github.com/cybersome/Linux-octo/assets/40174034/e31d7297-d812-49b9-b43e-d350a2469131">
 
 ## Modify Existing Users from the Command Line:
+- `usermod -g` command to change a user's primary group eg. `usermod -g group01 user02`
+- `usermod -aG` command to add a user to a supplementary/existing group eg. `usermod -aG group01 user03`
 - <img width="500" alt="image" src="https://github.com/cybersome/Linux-octo/assets/40174034/98ea1ecb-54c9-4eec-82f3-cfcdf9fc4b08">
 
 ## Set Passwords from the Command Line:
@@ -44,10 +46,22 @@
 
 ## UID ranges: `id`
 - <img width="500" alt="image" src="https://github.com/cybersome/Linux-octo/assets/40174034/0aad5c1d-84ca-47f9-85fe-2f18296e146f">
+> A user's primary group is the group that is viewed on the user's account in the /etc/passwd file & A user can belong to only one primary group at a time.
 
+## Manage Local Group Accounts
 
+## Manage Local Groups:
+- `groupadd` command creates groups.
+- groupadd command -g option specifies a GID for the group to use. eg. `groupadd -g 10000 group01`
+- `/etc/login.defs` file define the range of system GIDs
+- `groupmod command` changes the properties of an existing group
+- To rename the group `groupmod -n Old_name New_name`
+- To assign new GID `groupmod -g 20000 groupName`
+- To delete an Group `groupdel groupName`
+> You cannot remove a group if it is the primary group of an existing user
 
-
+## Temporarily Change Your Primary Group: `newgrp group01`
+- `newgrp command` to switch your primary group, in the current shell session.
 
 
 
@@ -70,15 +84,3 @@
 - Run `id` to view the current user and group information.
 - Print the values of the `$HOME` and `$PATH` variables to determine the home directory and user executables' path.
 - 
-
-
-
-
-
-
-
-
-
-
-
-
