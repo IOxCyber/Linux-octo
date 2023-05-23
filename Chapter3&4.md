@@ -62,13 +62,13 @@
 ## Command Expansion: `$(cmd)`
 - Command substitution allows the output of a command to replace the command itself on the command line. eg. echo $(cmd)
 
-## Pathname Expansion and Pattern Matching:
+## Pathname Expansion and Pattern Matching: grep
 - <img width="500" alt="image" src="https://github.com/cybersome/Linux-octo/assets/40174034/76f5663e-bf8b-457a-bdf3-c58c4f92f79d">
 
 ## Summary:
 - <img width="500" alt="image" src="https://github.com/cybersome/Linux-octo/assets/40174034/a2994dc6-cee3-4f54-a4d2-bb9d624de945">
 
-# Chapter 4:
+# Chapter 4: 
 ## Manuals & Help in Linux Cmds: `man cmd_name`
 - <img width="500" alt="image" src="https://github.com/cybersome/Linux-octo/assets/40174034/2c780501-af25-4543-b838-743d1c2bede6">
 ## Search for man Pages by Keyword:
