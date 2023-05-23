@@ -39,3 +39,30 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+## Exercise:
+- Run `id` to view the current user and group information.
+- Print the values of the `$HOME` and `$PATH` variables to determine the home directory and user executables' path.
+- 
+
+
+
+
+
+
+
+
+
+
+
+
