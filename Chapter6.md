@@ -13,7 +13,7 @@
 - Systems use the `/etc/group` file to store information about local groups.
 - <img width="500" alt="image" src="https://github.com/cybersome/Linux-octo/assets/40174034/369857a8-2e17-42e5-920f-4b26fa5ea1e5">
 - `When a regular user is created, a group is created with the same name` as the user, to be the primary group for the user.
-- 
+
 ### To check if User has Sudo privileges:
 - `sudo -v` or `sudo --validate` (echo $? ->> 0 then User is sudoer)
 - The `/etc/sudoers` file is the main configuration file for the sudo command.
@@ -103,4 +103,3 @@
 ## Exercise:
 - Run `id` to view the current user and group information.
 - Print the values of the `$HOME` and `$PATH` variables to determine the home directory and user executables' path.
-- 
