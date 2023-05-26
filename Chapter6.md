@@ -1,9 +1,9 @@
 # Manage Local Users and Groups: ugo (user, groups, other)
 
 ### Users: superuser, system users, and regular user:
-- The superuser/root account administers the system with UID of 0.
-- The system user accounts are used by processes that provide supporting services without the need of running the as the root.
-- Systems use the `/etc/passwd` file to store information about local user.
+- The `superuser/root account administers the system with UID of 0`.
+- The `system user accounts are used by processes` that provide supporting services without the need of running the as the root.
+- Systems use the `/etc/passwd` to store encrypted passwords of a user.
 - <img width="500" alt="image" src="https://github.com/cybersome/Linux-octo/assets/40174034/a02e7bb2-1b87-4428-9dd8-75978facf5c5">
 - `id` command to show information about the currently logged-in user.
 - `ps` command to view process information.
@@ -14,7 +14,7 @@
 - <img width="500" alt="image" src="https://github.com/cybersome/Linux-octo/assets/40174034/369857a8-2e17-42e5-920f-4b26fa5ea1e5">
 - `When a regular user is created, a group is created with the same name` as the user, to be the primary group for the user.
 - 
-### To check if USer is has Sudo privileges:
+### To check if User has Sudo privileges:
 - `sudo -v` or `sudo --validate` (echo $? ->> 0 then User is sudoer)
 - The `/etc/sudoers` file is the main configuration file for the sudo command.
 
@@ -54,8 +54,8 @@
 - `groupadd` command creates groups.
 - groupadd command -g option specifies a GID for the group to use. eg. `groupadd -g 10000 group01`
 - `/etc/login.defs` file define the range of system GIDs
-- `groupmod command` changes the properties of an existing group
-- To rename the group `groupmod -n Old_name New_name`
+- `groupmod` command changes the properties of an existing group
+- To rename/modify the group `groupmod -n Old_name New_name`
 - To assign new GID `groupmod -g 20000 groupName`
 - To delete an Group `groupdel groupName`
 > You cannot remove a group if it is the primary group of an existing user
@@ -63,11 +63,31 @@
 ## Temporarily Change Your Primary Group: `newgrp group01`
 - `newgrp command` to switch your primary group, in the current shell session.
 
+### Manage User Passwords:
+- The cryptographically hashed passwords store in `/etc/shadow` file, which only the `root user` can read.
+- each user has an entry with in the /etc/shadow file.
+- <img width="500" alt="image" src="https://github.com/cybersome/Linux-octo/assets/40174034/c74bfdb9-37f5-4005-8e74-c9a3998f84d8">
 
+### Format of an Cryptographically Hashed Password:
+- Cryptographically hashed password field stores 3 pieces of information: the `hashing algorithm, the salt, and the cryptographical hash.`
+- Each piece of information is `delimited by the dollar ($) character eg. $6$CSsXcYG1L/4ZfHr/$2W6evvJahUfzfHpc9X.45Jc6H30E`
+- <img width="500" alt="image" src="https://github.com/cybersome/Linux-octo/assets/40174034/beabff9b-4700-490a-997f-91f297fd6bc5">
 
+### Password Verification:
+- As User logins, the system -> Checks `/etc/shadow` file -> `combines the salt for the user` -> `Cryptographically hashes` the combination of the salt and plain text password with the specified hashing algorithm. If the result matches the cryptographical hash, then the user typed the right password.
 
+### Configure Password Aging:
+- `chage`, which stands for "change age".
+- The command defines a minimum age (-m) of zero days, a maximum age (-M) of 90 days, a warning period (-W) of 7 days, and an inactivity period (-I) of 14 days.
+- `eg. chage -m 0 -M 90 -W 7 -I 14 user`
+- 
 
-
+### Restrict/Lock Access/user:
+- usermod command to modify account expiration for a user eg `usermod -L user`.
+- To lock at specific Date: `usermod -L -e 2022-08-14 user`
+- To enable the access to the account again `-U option`
+- The nologin shell acts as a replacement shell for the user accounts that are not intended to log in interactively to the system.
+- To add user to nologin Shell in case of `usermod -s /sbin/nologin newapp`, nologin shell acts as a replacement shell for the user accounts that are not intended to log in interactively to the system. 
 
 
 
