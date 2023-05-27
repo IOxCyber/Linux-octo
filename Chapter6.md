@@ -3,7 +3,7 @@
 ### Users: superuser, system users, and regular user:
 - The `superuser/root account administers the system with UID of 0`.
 - The `system user accounts are used by processes` that provide supporting services without the need of running as the root.
-- Systems use the `/etc/passwd` to store encrypted passwords of a user.
+- Systems use the `/etc/passwd` to store encrypted passwords of any user.
 - <img width="500" alt="image" src="https://github.com/cybersome/Linux-octo/assets/40174034/a02e7bb2-1b87-4428-9dd8-75978facf5c5">
 - `id` command to show information about the currently logged-in user.
 - `ps` command to view process information.
@@ -42,7 +42,9 @@
 - <img width="500" alt="image" src="https://github.com/cybersome/Linux-octo/assets/40174034/98ea1ecb-54c9-4eec-82f3-cfcdf9fc4b08">
 
 ## Set Passwords from the Command Line:
-- `root` user can change password of any other user with current password.
+- To change **curent** user password: `passwd`
+- To change **Other** user password: `passwd Other_Username`
+> `root` user can change password of any other user with current password.
 
 ## UID ranges: `id`
 - <img width="500" alt="image" src="https://github.com/cybersome/Linux-octo/assets/40174034/0aad5c1d-84ca-47f9-85fe-2f18296e146f">
