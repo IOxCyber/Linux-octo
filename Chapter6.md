@@ -2,7 +2,7 @@
 
 ### Users: superuser, system users, and regular user:
 - The `superuser/root account administers the system with UID of 0`.
-- The `system user accounts are used by processes` that provide supporting services without the need of running the as the root.
+- The `system user accounts are used by processes` that provide supporting services without the need of running as the root.
 - Systems use the `/etc/passwd` to store encrypted passwords of a user.
 - <img width="500" alt="image" src="https://github.com/cybersome/Linux-octo/assets/40174034/a02e7bb2-1b87-4428-9dd8-75978facf5c5">
 - `id` command to show information about the currently logged-in user.
