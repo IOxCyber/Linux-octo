@@ -55,7 +55,7 @@
 ## Manage Local Groups:
 - `groupadd` command creates groups.
 - groupadd command -g option specifies a GID for the group to use. eg. `groupadd -g 10000 group01`
-- `/etc/login.defs` file define the range of system GIDs
+- `/etc/login.defs` file defines the range of system GIDs,
 - `groupmod` command changes the properties of an existing group
 - To rename/modify the group `groupmod -n Old_name New_name`
 - To assign new GID `groupmod -g 20000 groupName`
@@ -76,7 +76,7 @@
 - <img width="500" alt="image" src="https://github.com/cybersome/Linux-octo/assets/40174034/beabff9b-4700-490a-997f-91f297fd6bc5">
 
 ### Password Verification:
-- As User logins, the system -> Checks `/etc/shadow` file -> `combines the salt for the user` -> `Cryptographically hashes` the combination of the salt and plain text password with the specified hashing algorithm. If the result matches the cryptographical hash, then the user typed the right password.
+- As a Users, the system -> Checks `/etc/shadow` file -> `combines the salt for the user` -> `Cryptographically hashes` the combination of the salt and plain text password with the specified hashing algorithm. If the result matches the cryptographical hash, then the user typed the right password.
 
 ### Configure Password Aging:
 - `chage`, which stands for "change age".
@@ -87,10 +87,14 @@
 ### Restrict/Lock Access/user:
 - usermod command to modify account expiration for a user eg `usermod -L user`.
 - To lock at specific Date: `usermod -L -e 2022-08-14 user`
+> Account will not locked for `root user`.
 - Unlock the user account: `sudo usermod -U user`
 - The nologin shell acts as a replacement shell for the user accounts that are not intended to log in interactively to the system.
 - To add user to nologin Shell in case of the user accounts that are not intended to log in interactively to the system, `usermod -s /sbin/nologin newapp`
 
+## Exercise:
+- Run `id` to view the current user and group information.
+- Print the values of the `$HOME` and `$PATH` variables to determine the home directory and user executables' path.
 
 ## Exercise:
 - Set the maximum age of the user's password to 90 days: `chage -M 90 user`
@@ -98,12 +102,8 @@
 - Set the operator1 account to expire 180 days from the current day:
 - 1. Determine a date 180 days in the future: `date -d "+180 days" +%F`
 - 2. Set the account to expire on the date: `chage -E "Date_from_Step1" user`
-- 
+- Set the passwords to expire in 180 days for all users: `vim /etc/login.defs`
+> The default password and account expiry settings apply to new users but not to existing users.
 
 
 
-
-
-## Exercise:
-- Run `id` to view the current user and group information.
-- Print the values of the `$HOME` and `$PATH` variables to determine the home directory and user executables' path.
