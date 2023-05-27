@@ -5,6 +5,7 @@
 - The `system user accounts are used by processes` that provide supporting services without the need of running as the root.
 - Systems use the `/etc/passwd` to store encrypted passwords of any user.
 - <img width="500" alt="image" src="https://github.com/cybersome/Linux-octo/assets/40174034/a02e7bb2-1b87-4428-9dd8-75978facf5c5">
+- user entry format in /etc/passwd file `username:password:UID:GID:Comments:Home_Directory:Login Shell`
 - `id` command to show information about the currently logged-in user.
 - `ps` command to view process information.
 
@@ -29,7 +30,8 @@
 
 ## Manage Local Users:
 ## Create a User:
-- `useradd username` command creates a user called username.
+- To creates a user called username `useradd username`
+- To add user to suplementery group while creating the user `useradd -G group_name user_name`
 
 ## Delete a User:
 - `userdel username` command removes the username user from /etc/passwd, but leaves the user's home directory intact.
@@ -37,8 +39,8 @@
 - <img width="500" alt="image" src="https://github.com/cybersome/Linux-octo/assets/40174034/e31d7297-d812-49b9-b43e-d350a2469131">
 
 ## Modify Existing Users from the Command Line:
-- `usermod -g` command to change a user's primary group eg. `usermod -g group01 user02`
-- `usermod -aG` command to add a user to a supplementary/existing group eg. `usermod -aG group01 user03`
+- `usermod -g` command to change a user to primary group eg. `usermod -g group01 user02`
+- `usermod -aG` command to add a user to a existing/suplementery group eg. `usermod -aG group01 user03`
 - <img width="500" alt="image" src="https://github.com/cybersome/Linux-octo/assets/40174034/98ea1ecb-54c9-4eec-82f3-cfcdf9fc4b08">
 
 ## Set Passwords from the Command Line:
@@ -102,9 +104,20 @@
 - Set the operator1 account to expire 180 days from the current day:
 - 1. Determine a date 180 days in the future: `date -d "+180 days" +%F`
 - 2. Set the account to expire on the date: `chage -E "Date_from_Step1" user`
-- Set the passwords to expire in 180 days for all users: `vim /etc/login.defs`
+- Set the passwords to expire in 180 days for all users: `vim /etc/login.defs` > change the PASS_MAX_DAYS variable's value to 180.
 > The default password and account expiry settings apply to new users but not to existing users.
 
 
-## Lab - Exercise:
-- 
+## Lab - Exercise: Manage Local Users and Groups
+
+- Configure administrative rights to enable all group members to execute any command as any user: 
+- - a. create a file in `/etc/sudoers` directory.
+- - b. add this to file `%GROUP_NAME  ALL=(ALL) ALL`
+
+
+
+
+
+
+
+
