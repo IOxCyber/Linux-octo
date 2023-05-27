@@ -80,21 +80,23 @@
 - `chage`, which stands for "change age".
 - The command defines a minimum age (-m) of zero days, a maximum age (-M) of 90 days, a warning period (-W) of 7 days, and an inactivity period (-I) of 14 days.
 - `eg. chage -m 0 -M 90 -W 7 -I 14 user`
-- 
+
 
 ### Restrict/Lock Access/user:
 - usermod command to modify account expiration for a user eg `usermod -L user`.
 - To lock at specific Date: `usermod -L -e 2022-08-14 user`
-- To enable the access to the account again `-U option`
+- Unlock the user account: `sudo usermod -U user`
 - The nologin shell acts as a replacement shell for the user accounts that are not intended to log in interactively to the system.
-- To add user to nologin Shell in case of `usermod -s /sbin/nologin newapp`, nologin shell acts as a replacement shell for the user accounts that are not intended to log in interactively to the system. 
+- To add user to nologin Shell in case of the user accounts that are not intended to log in interactively to the system, `usermod -s /sbin/nologin newapp`
 
 
-
-
-
-
-
+## Exercise:
+- Set the maximum age of the user's password to 90 days: `chage -M 90 user`
+- Force a password change on the first login: `chage -d 0 user`
+- Set the operator1 account to expire 180 days from the current day:
+- 1. Determine a date 180 days in the future: `date -d "+180 days" +%F`
+- 2. Set the account to expire on the date: `chage -E "Date_from_Step1" user`
+- 
 
 
 
