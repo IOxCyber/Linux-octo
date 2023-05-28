@@ -39,7 +39,7 @@
 - <img width="500" alt="image" src="https://github.com/cybersome/Linux-octo/assets/40174034/e31d7297-d812-49b9-b43e-d350a2469131">
 
 ## Modify Existing Users from the Command Line:
-- `usermod -g` command to change a user to primary group eg. `usermod -g group01 user02`
+- `usermod -g` command to change a user's primary group eg. `usermod -g group01 user02`
 - `usermod -aG` command to add a user to a existing/suplementery group eg. `usermod -aG group01 user03`
 - <img width="500" alt="image" src="https://github.com/cybersome/Linux-octo/assets/40174034/98ea1ecb-54c9-4eec-82f3-cfcdf9fc4b08">
 
