@@ -115,8 +115,13 @@
 - - b. add this to file `%GROUP_NAME  ALL=(ALL) ALL`
 
 
-
-
+# Summary:
+- Linux have 3 types of user eg. the superuser, system users, and regular users.
+- User can have primary group(-g) and additional/supplementary groups(-G).
+- User Info: /etc/passwd, /etc/group, and /etc/shadow.
+- To manage users: useradd, usermod, and userdel
+- To manage groups: groupadd, groupmod, and groupdel
+- To displays and configures password expiration settings for users: chage
 
 
 
