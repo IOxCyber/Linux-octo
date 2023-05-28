@@ -11,10 +11,17 @@
 - The `.. special directory` reflects the permissions of its parent directory.
 
 ## Change File and Directory Permissions:`chmod: change mode`
-- 
+1. **Symbolic method**: `chmod Who/What/Which file|directory` or who=u,g,o,a | what=+,-,= | which=r,w,x
+- eg. chmod go-rw file, chmod a+x file
+> By default, the permission apply to the file/dir not entire directory. To apply to entire directory tree eg. `chmod -R ug+rwx /home/user/folder`
 
+2. **Octal Method**: `chmod ### file|directory` or ###=any single digit (0-7) (read=4,write=2,execute=1)
+- <img width="500" alt="image" src="https://github.com/cybersome/Linux-octo/assets/40174034/055cd6ad-2f40-4ce0-a22c-7e6d9632f1c0">
 
-
+## Change File and Directory User or Group Ownership: `chown`
+- user owns a file that it creates
+- To recursively changes the ownership of an entire directory tree: `chown -R user Dir`
+- To change group ownership of a file by preceding the group name with a colon (:) `chown :admins Dir`
 
 
 
