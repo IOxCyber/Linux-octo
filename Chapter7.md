@@ -23,6 +23,22 @@
 - To recursively changes the ownership of an entire directory tree: `chown -R user Dir`
 - To change group ownership of a file by preceding the group name with a colon (:) `chown :admins Dir`
 
+## Default File Permissions:
+- `umask` which stands for user file-creation mask, it works as substracting `initial permission - umask value` [^1]example
+- If you create a directory, then its initial octal permissions are 0777 (drwxrwxrwx).
+- If you create a regular file, then its initial octal permissions are 0666 (-rw-rw-rw-).
+- The system's `default umask values` (umask) for Bash shell users are defined in the `/etc/login.defs` and in the `/etc/bashrc` file.
+- <img width="500" alt="image" src="https://github.com/cybersome/Linux-octo/assets/40174034/3788c4d8-e338-4d0c-ae81-ce455296032b">
+- To change deault umask for a user: `echo "umask 007" >> ~/.bashrc`
 
 
 
+
+
+
+
+
+
+
+
+[^1]: If you create a regular file, then its initial octal permissions are 0666 (000 110 110 110, in binary representation). Then, the 0022 umask (000 000 010 010) disables the write permission bit for group and others. Thus, the owner has both read and write permission on files, and both group and other are set to read (000 110 100 100).
