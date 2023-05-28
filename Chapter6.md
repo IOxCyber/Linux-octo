@@ -10,7 +10,7 @@
 - `ps` command to view process information.
 
 ### Groups: 
-- A collection of users that need to share access to files and other system resources.
+- A collection of users which needs to share access to files and other system resources.
 - Systems use the `/etc/group` file to store information about local groups.
 - <img width="500" alt="image" src="https://github.com/cybersome/Linux-octo/assets/40174034/369857a8-2e17-42e5-920f-4b26fa5ea1e5">
 - `When a regular user is created, a group is created with the same name` as the user, to be the primary group for the user.
@@ -21,7 +21,7 @@
 
 ## Gain Superuser Access:
 - Switch User Accounts `su user_name`
-- `sudo` is to log by default all the executed commands to `/var/log/secure`.
+> `sudo` is to log by default all the executed commands to `/var/log/secure`.
 
 > ls -l /home - List out the home dir of all available users.
 
@@ -31,14 +31,14 @@
 ## Manage Local Users:
 ## Create a User:
 - To creates a user called username `useradd username`
-- To add user to suplementery group while creating the user `useradd -G group_name user_name`
+- To add user to suplementery/additional group while creating the user `useradd -G group_name user_name`
 
 ## Delete a User:
 - `userdel username` command removes the username user from /etc/passwd, but leaves the user's home directory intact.
 - `userdel -r username` command removes the user from /etc/passwd and deletes the user's home directory.
 - <img width="500" alt="image" src="https://github.com/cybersome/Linux-octo/assets/40174034/e31d7297-d812-49b9-b43e-d350a2469131">
 
-## Modify Existing Users from the Command Line:
+## Modify Existing Users from the Command Line: -g (to change primary group) & -G (to change suplementery/additional group)
 - `usermod -g` command to change a user's primary group eg. `usermod -g group01 user02`
 - `usermod -aG` command to add a user to a existing/suplementery group eg. `usermod -aG group01 user03`
 - <img width="500" alt="image" src="https://github.com/cybersome/Linux-octo/assets/40174034/98ea1ecb-54c9-4eec-82f3-cfcdf9fc4b08">
