@@ -32,6 +32,9 @@
 - To change deault umask for a user: `echo "umask 007" >> ~/.bashrc`
 
 
+## Summary:
+- `ls -ld dir` - to check dir content & permissions
+- <img width="500" alt="image" src="https://github.com/cybersome/Linux-octo/assets/40174034/67e04f47-f7b6-45de-8ae7-c0fa38aadad4">
 
 
 
