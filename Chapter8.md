@@ -21,9 +21,27 @@
 ## Run Jobs in the Background:
 - Any command or pipeline can be started in the background by appending an ampersand (&) character to the command: `sleep 1000 &`
 - Use the jobs command to display the list of jobs in the shell's session: `jobs`
-- Use the fg command to bring a background job to the foreground: `fg %JOB_Number` JOB_Number > `jobs`
+- Use the fg command to bring a background job to the foreground: `fg %JOB_Number` JOB_Number >> `jobs`
 - To send/suspend a foreground process to the background: `ctrl+z`
 - To start running the suspended process in background: `bg %JOB_Number`
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
