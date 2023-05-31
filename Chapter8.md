@@ -26,8 +26,21 @@
 - To start running the suspended process in background: `bg %JOB_Number`
 
 
+## Process Control with Signals:
+- A signal(an error, an external (an I/O request or an expired timer), keyboard sequence.) is a software interrupt that is delivered to a process.
+- <img width="500" alt="image" src="https://github.com/cybersome/Linux-octo/assets/40174034/60071ef8-87c7-4e2f-8e0f-da69df08269a">
+- A keyboard control sequence `to suspend (Ctrl+z), kill (Ctrl+c), or core dump (Ctrl+\)`
 
-
+## Labs:
+- $@ Represents all the arguments passed to the script.
+- make a file.sh with following content: 
+- `#!/bin/bash
+while true; do
+  echo -n "$@ " >> ~/instance_outfile
+  sleep 5
+done`
+- It'll capture the arguments to new file instance_outfile.
+- 
 
 
 
