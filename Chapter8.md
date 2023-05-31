@@ -40,7 +40,13 @@ while true; do
   sleep 5
 done`
 - It'll capture the arguments to new file instance_outfile.
-- 
+- Run the file.sh with some arguments as bg process.
+- To kill a job: `kill -SIGSTOP %JOB_NUMBER` & JOB_NUMBER = jobs
+- To Terminate a job: `kill -SIGTERM %JOB_NUMBER`
+- To Resume a job: `kill -SIGCONT %JOB_NUMBER`
+- To list out current running processes.: `ps -ef`
+
+
 
 
 
