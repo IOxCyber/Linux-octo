@@ -47,22 +47,15 @@ done`
 - To list out current running processes.: `ps -ef`
 
 
+## Monitor Process Activity:
+- Load average is a measurement that the Linux kernel provides, to represent the perceived system load for a period of time.
+- The kernel collects the current load number every five seconds based on the number of processes in runnable and uninterruptible states.
+- Real-time Process Monitoring with `top` command. 
+- <img width="500" alt="image" src="https://github.com/cybersome/Linux-octo/assets/40174034/eecad750-6130-4880-9b01-4814e9f5feda">
+- <img width="500" alt="image" src="https://github.com/cybersome/Linux-octo/assets/40174034/75c4d59d-d069-494e-b8e5-166bb40d2d7d">
+- To display the current load average: `uptime`
+- To determine the number of CPUs on a system: `lscpu` 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+## Summary:
+- <img width="500" alt="image" src="https://github.com/cybersome/Linux-octo/assets/40174034/f664ef77-95a2-4739-a864-a44f5c3eae40">
