@@ -12,4 +12,16 @@
 - - StrictHostKeyChecking= option
 - If the StrictHostKeyChecking parameter is set to yes, then the ssh command always aborts the SSH connection if the public keys do not match.
 - If the StrictHostKeyChecking parameter is set to no, then the ssh command enables the connection and adds the key of the target host to the ~/.ssh/known_hosts file.
+
+
+## SSH Known Hosts Key Management:
+- The system-wide `/etc/ssh/ssh_known_hosts` file.
+- The `~/.ssh/known_hosts` file in each user's home directory.
+
+## :
 - 
+
+
+
+
+
