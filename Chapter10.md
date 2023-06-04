@@ -18,7 +18,7 @@
 - The system-wide `/etc/ssh/ssh_known_hosts` file.
 - The `~/.ssh/known_hosts` file in each user's home directory.
 
-## :
+## Configure SSH Key-based Authentication:
 - 
 
 
