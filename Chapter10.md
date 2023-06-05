@@ -39,6 +39,8 @@
 - To prohibit direct login to the root user account from remote systems `PermitRootLogin no` > To apply changes `systemctl reload sshd`
 > Whenever you change the /etc/ssh/sshd_config file, you must reload the sshd service to apply the changes.
 
+## Summary:
+- <img width="500" alt="image" src="https://github.com/cybersome/Linux-octo/assets/40174034/d8220fb9-3d13-4ada-9455-887b21a7914d">
 
 
 
