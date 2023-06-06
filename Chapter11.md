@@ -16,8 +16,8 @@
 - Ethernet interfaces begin with **en**
 - WLAN interfaces begin with **wl**
 - WWAN interfaces begin with **ww**
-- ![image](https://github.com/cybersome/Linux-octo/assets/40174034/bf72f3c3-6122-45b7-9bf2-18707707ebfb)
-- ![image](https://github.com/cybersome/Linux-octo/assets/40174034/d8201d18-a54e-4bf7-8474-ad1db62ef9bc)
+- <img width="500" alt="image" src="https://github.com/cybersome/Linux-octo/assets/40174034/8ce91e1e-6a1a-4542-9c2f-3a17e5435b4d">
+- <img width="500" alt="image" src="https://github.com/cybersome/Linux-octo/assets/40174034/318e5b48-223f-4342-bd85-5b9bf1251491">
 
 ## Example Network Calculations:
 - <img width="448" alt="image" src="https://github.com/cybersome/Linux-octo/assets/40174034/ff6e80c1-80ac-40a9-ba72-9f5a1baac52d">
