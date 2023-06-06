@@ -27,7 +27,11 @@
 > To create static entries for each hostname in each system's `/etc/hosts` file
 > A nameserver configuration is typically obtained through DHCP or by creating static address settings in the `/etc/resolv.conf`
 
-
-
+## Gather Network Interface Information:
+- To lists all available network interfaces on the system: `ip link show`
+- To view device and address information: `ip addr show eth0`
+- Verify Connectivity Between Hosts: `ping -c3 192.0.2.254`
+- 
+- 
 
 
