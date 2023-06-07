@@ -34,4 +34,8 @@
 - 
 - 
 
-
+## IP Subnetting, Subnet mask, Host & Broadcast Address:
+> Lining up the IP address and the subnet mask together, the network and host portions of the address can be separated.
+-
+-
+> To Calculate Usuable Hosts: `2^n - 2` where n= Host bits 
