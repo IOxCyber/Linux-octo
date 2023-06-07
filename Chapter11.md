@@ -32,10 +32,15 @@
 - To view device and address information: `ip addr show eth0`
 - Verify Connectivity Between Hosts: `ping -c3 192.0.2.254`
 - 
-- 
+ 
 
 ## IP Subnetting, Subnet mask, Host & Broadcast Address:
-> Lining up the IP address and the subnet mask together, the network and host portions of the address can be separated.
--
--
-> To Calculate Usuable Hosts: `2^n - 2` where n= Host bits 
+> eg. 192.168.5.85/24
+- Step 1: Calculate the **Subnet Mask** (Depends on CIDR Notation ie /24, /30, /8 >> Rep. the Network Bits) or Classful addressing
+- Step 2: Lining up the **Given IP address and the subnet mask** together, the network and host portions of the address can be separated.
+- Once get the network and host portions, Calculate the **Host Range** other parts.
+- To Calculate Usuable Hosts: `2^n - 2` where n = Host bit
+- Last Host Address is **Broadcast Address**
+
+
+
