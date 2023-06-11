@@ -31,7 +31,6 @@
 - To lists all available network interfaces on the system: `ip link show`
 - To view device and address information: `ip addr show eth0`
 - Verify Connectivity Between Hosts: `ping -c3 192.0.2.254`
-- 
  
 
 ## IP Subnetting, Subnet mask, Host & Broadcast Address:
@@ -41,6 +40,31 @@
 - Once get the network and host portions, Calculate the **Host Range** other parts.
 - To Calculate Usuable Hosts: `2^n - 2` where n = Host bit
 - Last Host Address is **Broadcast Address**
+
+## Labs:
+- Display the current IP address and netmask for all interfaces: `ip -br addr`
+- Display the statistics for the enX interface: `ip -s link show enX`
+- Display the route information: `ip route`
+- Show all the hops between the local system and the classroom.example.com system: `tracepath hostname/ip_address`
+- Display the listening TCP sockets on the local system: `ss -lt`
+
+## The NetworkManager Service:
+- The `NetworkManager` service monitors and manages a system's network settings.
+- Service configuration files are stored & can be managed in the `/etc/NetworkManager/system-connections/` directory.
+- To displays the status of all network devices: `nmcli dev status`
+- To displays a list of all connections: `nmcli connection show`
+- To disconnects the network device and brings down the connection: `nmcli dev disconnect Network_Connection`
+- The next example loads only the eno2 connection profile: `nmcli con reload eth0`
+- To delete a Network Connection: `nmcli con del Network_Connection`
+- To view your current permissions: `nmcli gen permissions`
+- <img width="500" alt="image" src="https://github.com/cybersome/Linux-octo/assets/40174034/2dcc2306-5e8d-40ef-983e-0b8c1d4cdc42">
+- Show the device status: `nmcli dev status`
+- 
+- 
+
+
+
+
 
 
 
