@@ -58,7 +58,8 @@
 - To delete a Network Connection: `nmcli con del Network_Connection`
 - To view your current permissions: `nmcli gen permissions`
 - <img width="500" alt="image" src="https://github.com/cybersome/Linux-octo/assets/40174034/2dcc2306-5e8d-40ef-983e-0b8c1d4cdc42">
-- Show the device status: `nmcli dev status`
+- Show the device status: `nmcli dev status` & reload `nmcli con reload`
+- 
 - 
 - 
 
