@@ -59,13 +59,14 @@
 - To view your current permissions: `nmcli gen permissions`
 - <img width="500" alt="image" src="https://github.com/cybersome/Linux-octo/assets/40174034/2dcc2306-5e8d-40ef-983e-0b8c1d4cdc42">
 - Show the device status: `nmcli dev status` & reload `nmcli con reload`
+
+## Lab:
+### Edit the Network Configuration Files:
+- Locate network interface names: `ip link`
+- Show active connection: `nmcli con show`
+- Edit the Network Configuration File: `vim /etc/NetworkManager/system-connections/"Wired connection 1.nmconnection"`
+- Reload the configuration changes: `nmcli con reload`
+- Activate the connection with the changes: `nmcli con up "Wired connection 1"`
 - 
-- 
-- 
-
-
-
-
-
 
 
