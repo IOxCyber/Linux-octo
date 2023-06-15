@@ -1,4 +1,4 @@
-# Access the Remote Command Line with SSH:
+# Chapter 10: Access the Remote Command Line with SSH:
 
 - Secure Shell Examples: `ssh user_name@IP_Host`
 - Identifying Remote Users: `w`
