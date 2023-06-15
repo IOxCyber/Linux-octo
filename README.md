@@ -3,4 +3,5 @@ This repo is all about Linux basic &amp; Administration activities. Learning fro
 
 ## Linux In-build Command:
 - NounVerb Format, eg. useradd, keygen, userdel etc.
+- 
 
