@@ -60,6 +60,9 @@
 - <img width="500" alt="image" src="https://github.com/cybersome/Linux-octo/assets/40174034/2dcc2306-5e8d-40ef-983e-0b8c1d4cdc42">
 - Show the device status: `nmcli dev status` & reload `nmcli con reload`
 
+## HTTP response status code: [More](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status)
+- <img width="500" alt="image" src="https://github.com/cybersome/Linux-octo/assets/40174034/2df5fede-4375-4e17-8dd3-dc660e39e6de">
+
 ## Lab:
 ### Edit the Network Configuration Files:
 - Locate network interface names: `ip link`
