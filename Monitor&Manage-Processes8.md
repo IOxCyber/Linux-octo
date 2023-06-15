@@ -1,4 +1,4 @@
-# Monitor and Manage Linux Processes:
+# Chapter 8: Monitor and Manage Linux Processes
 
 ## Process States and Lifecycle:
 - A **process** is a running instance of a launched, executable program.
@@ -41,7 +41,9 @@ while true; do
 done`
 - It'll capture the arguments to new file instance_outfile.
 - Run the file.sh with some arguments as bg process.
-- To kill a job: `kill -SIGSTOP %JOB_NUMBER` & JOB_NUMBER = jobs
+
+## Kill/Resume/Terminate a Job:
+- To kill a job: `kill -SIGSTOP %JOB_NUMBER` (Get JOB_NUMBER with `jobs` command)
 - To Terminate a job: `kill -SIGTERM %JOB_NUMBER`
 - To Resume a job: `kill -SIGCONT %JOB_NUMBER`
 - To list out current running processes.: `ps -ef`
