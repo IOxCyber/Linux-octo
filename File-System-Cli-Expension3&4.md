@@ -77,7 +77,6 @@
 -  `man -t cmd` option prepares a man page for printing, using by default PostScript.
 - `evince` to view the file.
 - `lp file` to print file page on printer.
-- 
 
 
 
