@@ -68,21 +68,25 @@
 - Locate network interface names: `ip link`
 - Show active connection: `nmcli con show`
 - Edit & add the IP in the Network Configuration File: `vim /etc/NetworkManager/system-connections/"Wired connection 1.nmconnection"`
+ or `nmcli con mod "lab" +ipv4.addresses Given_IpAddress`
 - Reload the configuration changes: `nmcli con reload`
 - Activate the connection with the changes: `nmcli con up "Wired connection 1"`
 
 ## Configure Hostnames and Name Resolution:
 - To know the Hostname: `hostname`
 - Update the System Hostname: `hostnamectl Oldhostname Newhostname`
-- static hostname in the `/etc/hostname` file
+- Static hostname info: `/etc/hostname` file
 - `stub resolver` converts hostnames to IP addresses or the reverse.
 > DHCP automatically rewrites the /etc/resolv.conf file when interfaces are started, unless you specify ignore-auto-dns = yes in the /etc/NetworkManager/system-connections/
 - DNS lokkup utility: `dig`
 - Get the details from `/etc/nsswitch` about hosts: 'getent hosts Given_Hostname'
+- Look up the IP address of the hostname: `host Given_Hostname`
+
+## Summary:
+- <img width="500" alt="image" src="https://github.com/cybersome/Linux-octo/assets/40174034/12115732-4ba6-478b-bb3b-acaa737dcf92">
 
 
-## Lab: Configure Hostnames and Name Resolution:
-- 
+
 
 
 
