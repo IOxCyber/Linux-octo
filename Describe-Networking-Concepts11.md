@@ -63,13 +63,26 @@
 ## HTTP response status code: [More](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status)
 - <img width="500" alt="image" src="https://github.com/cybersome/Linux-octo/assets/40174034/2df5fede-4375-4e17-8dd3-dc660e39e6de">
 
-## Lab:
+## Lab: Configure additional network addresses on a system.
 ### Edit the Network Configuration Files:
 - Locate network interface names: `ip link`
 - Show active connection: `nmcli con show`
-- Edit the Network Configuration File: `vim /etc/NetworkManager/system-connections/"Wired connection 1.nmconnection"`
+- Edit & add the IP in the Network Configuration File: `vim /etc/NetworkManager/system-connections/"Wired connection 1.nmconnection"`
 - Reload the configuration changes: `nmcli con reload`
 - Activate the connection with the changes: `nmcli con up "Wired connection 1"`
+
+## Configure Hostnames and Name Resolution:
+- To know the Hostname: `hostname`
+- Update the System Hostname: `hostnamectl Oldhostname Newhostname`
+- static hostname in the `/etc/hostname` file
+- `stub resolver` converts hostnames to IP addresses or the reverse.
+> DHCP automatically rewrites the /etc/resolv.conf file when interfaces are started, unless you specify ignore-auto-dns = yes in the /etc/NetworkManager/system-connections/
+- DNS lokkup utility: `dig`
+- Get the details from `/etc/nsswitch` about hosts: 'getent hosts Given_Hostname'
+
+
+## Lab: Configure Hostnames and Name Resolution:
 - 
+
 
 
