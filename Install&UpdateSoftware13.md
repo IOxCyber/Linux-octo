@@ -52,9 +52,5 @@
 - <img width="500" alt="image" src="https://github.com/cybersome/Linux-octo/assets/40174034/c1d00c92-5989-4425-af4c-0820d7d46bef">
 
 
-## Labs:
-
-
-
 
 
