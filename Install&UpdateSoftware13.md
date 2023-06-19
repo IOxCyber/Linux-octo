@@ -44,11 +44,15 @@
 - List all available repositories and their statuses: `dnf repolist all`
 - To enable Repo: `dnf config-manager --enable REPO_NAME`
 - You can add a third-party repository in one of two ways.
-- 1. create a .repo file in the `/etc/yum.repos.d/`
-- 2. add a [repository] section to the `/etc/dnf/dnf.conf`
-- 
+  1. create a .repo file in the `/etc/yum.repos.d/`
+  2. Or add a [repository] section to the `/etc/dnf/dnf.conf`
+- To add dnf Repo: `dnf config-manager --add-repo="link2Repo"`
+> The rpm command uses GPG keys to sign packages, and imports public keys to verify the integrity and authenticity of packages.
+- RPM Configuration Packages for Local Repositories: Import GPG-KEY & Install the rpm package `rpm --import Link2GPG-Key` > `dnf install Link2rpm-package`
+- <img width="500" alt="image" src="https://github.com/cybersome/Linux-octo/assets/40174034/c1d00c92-5989-4425-af4c-0820d7d46bef">
 
 
+## Labs:
 
 
 
