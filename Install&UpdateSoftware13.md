@@ -43,9 +43,10 @@
 ## Enable Red Hat Software Repositories:
 - List all available repositories and their statuses: `dnf repolist all`
 - To enable Repo: `dnf config-manager --enable REPO_NAME`
-- You can add a third-party repository in one of two ways.
+- You can configure a third-party repository in one of two ways.
   1. create a .repo file in the `/etc/yum.repos.d/`
   2. Or add a [repository] section to the `/etc/dnf/dnf.conf`
+- To Name the repository: `Add [Repo-Name]` at start of the file.
 - To add dnf Repo: `dnf config-manager --add-repo="link2Repo"`
 > The rpm command uses GPG keys to sign packages, and imports public keys to verify the integrity and authenticity of packages.
 - RPM Configuration Packages for Local Repositories: Import GPG-KEY & Install the rpm package `rpm --import Link2GPG-Key` > `dnf install Link2rpm-package`
