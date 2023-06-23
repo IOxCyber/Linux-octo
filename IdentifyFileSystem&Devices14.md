@@ -15,8 +15,8 @@
 - Identify a block device: `lsblk`
 - `mount` instructs the operating system to attach a file system at a specified directory.
 - To `mount` the file system by `UUID` or with `device name in /dev` dir.
-- To `unmount /mnt/data`
-
+- To Unmount: `umount /mnt/data`
+- 
 
 
 - 
