@@ -1,4 +1,5 @@
 ## Storage Management Concepts:
+- File System: the way in which files are named and where they are placed logically for storage and retrieval. 
 - RHEL default local file system: ` Extents File System (XFS)`
 - For removable media use: `Extensible File Allocation Table (exFAT)`
 - A block device is a file that provides low-level access to storage devices in `/dev directory`
@@ -8,7 +9,7 @@
 - Paravirtualized storage, the first partition is the /dev/vda1 & so on..
 - NVMe[^2] storage devices, first disk is the /dev/nvme0n1p1.
 - To display an overview of local and remote file-system devices, disk-filesystem: `df with -h or -H`
-- For more detailed information about a specific directory tree space: `du with -h and -H`
+- For Disk Usage: `du with -h and -H`
 
 ## Mount & Unmount a device:
 - To access the file system on a removable storage device, you must mount the storage device.
