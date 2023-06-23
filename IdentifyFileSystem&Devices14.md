@@ -18,8 +18,16 @@
 - To Unmount: `umount /mnt/data`
 - 
 
-
+## Locate/Find files on the System:
+- To locate files(To search in pre-generated index): `locate KEYWORD`
+> The locate database updates automatically every day but can be force by `updatedb`
+- To find files(Search in real-time): `find LOCATION -name FILE_NAME`
+- Search for Files Based on Ownership or Permission: `find -user developer`
+- Find Files Based on Size: `find -size SIZE`
 - 
+- 
+- <img width="500" alt="image" src="https://github.com/cybersome/Linux-octo/assets/40174034/180eab14-6046-4320-8a4a-93bfc0244c48">
+
 
 
 
