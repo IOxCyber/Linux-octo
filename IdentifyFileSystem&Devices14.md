@@ -13,19 +13,18 @@
 ## Mount & Unmount a device:
 - To access the file system on a removable storage device, you must mount the storage device.
 - Identify a block device: `lsblk`
+- Query the UUID[^4] of the a device: `lsblk -fp PATH`
 - `mount` instructs the operating system to attach a file system at a specified directory.
-- To `mount` the file system by `UUID` or with `device name in /dev` dir.
-- To Unmount: `umount /mnt/data`
-- 
+- To `mount` the file system by `UUID` or with `device name in /PATH` dir.
+- To Unmount: `umount /PATH`
+
 
 ## Locate/Find files on the System:
 - To locate files(To search in pre-generated index): `locate KEYWORD`
 > The locate database updates automatically every day but can be force by `updatedb`
 - To find files(Search in real-time): `find LOCATION -name FILE_NAME`
 - Search for Files Based on Ownership or Permission: `find -user developer`
-- Find Files Based on Size: `find -size SIZE`
-- 
-- 
+- Find Files Based on Size: `find -size SIZE` (+/- for Greater/Less than)
 - <img width="500" alt="image" src="https://github.com/cybersome/Linux-octo/assets/40174034/180eab14-6046-4320-8a4a-93bfc0244c48">
 
 
@@ -56,3 +55,4 @@
 [1^]: SATA (also referred to as Serial ATA) stands for Serial Advanced Technology Attachment, an industry-standard bus interface for connecting a computer's host bus adapter to storage devices such as hard disk drives (HDD), optical drives and solid-state drives (SSD).
 [^2]: NVMe (Non-Volatile Memory Express) is a communications interface and driver that defines a command set and feature set for PCIe-based[^3] SSDs.
 [^3]: PCIe, or peripheral component interconnect express, is an interface standard for connecting high-speed input output (HSIO) components. Every high-performance computer motherboard has a number of PCIe slots you can use to add GPUs, WiFi cards, or SSD (solid-state drive).
+[^4]: UUID (universally unique identifier) for unique labels. This is basically a unique string of characters that the operating system will use to identify your hard disk partitions and other storage components.
