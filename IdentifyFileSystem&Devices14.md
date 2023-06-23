@@ -9,8 +9,28 @@
 - NVMe[^2] storage devices, first disk is the /dev/nvme0n1p1.
 - To display an overview of local and remote file-system devices, disk-filesystem: `df with -h or -H`
 - For more detailed information about a specific directory tree space: `du with -h and -H`
+
+## Mount & Unmount a device:
+- To access the file system on a removable storage device, you must mount the storage device.
+- Identify a block device: `lsblk`
+- `mount` instructs the operating system to attach a file system at a specified directory.
+- To `mount` the file system by `UUID` or with `device name in /dev` dir.
+- To `unmount /mnt/data`
+
+
+
 - 
-- 
+
+
+
+
+
+
+
+
+
+
+
 
 
 
