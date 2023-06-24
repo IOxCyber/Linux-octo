@@ -31,7 +31,7 @@
 
 ## Lab 1: Configure SSH Key-based Authentication
 - Generate a set of SSH keys: `ssh-keygen`
-- Send the Public Key of the SSH key pair to the other user on different machine. `ssh-copy-id user@hostNameOrIP`
+- Send/Export/Copy the Public Key of the SSH key pair to the other user on different machine. `ssh-copy-id Public_Key user@hostNameOrIP`
 - Execute the hostname command on the servera machine remotely by using the ssh command without accessing the remote interactive shell `ssh user@hostNameOrIP hostname` 
 
 ## Configure the OpenSSH Server:
