@@ -112,7 +112,10 @@
 
 - Configure administrative rights to enable all group members to execute any command as any user: 
 - - a. create a file in `/etc/sudoers` directory.
-- - b. add this to file `%GROUP_NAME  ALL=(ALL) ALL`
+- - b. add this to file `%GROUP_NAME  ALL=(ALL) ALL` or for User `user_name ALL=(ALL) ALL`
+
+- change umask value: Append `umask VALUE` to `.bashrc`
+- Source the ~/.bashrc file to update the umask: `source ~/.bashrc`
 
 
 # Summary:
