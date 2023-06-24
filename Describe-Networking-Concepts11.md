@@ -84,7 +84,7 @@
 
 ## Add a Profile named `static`:
 - Connection Profile Path: `/etc/sysconfig/network-scripts`
-- `nmcli connection add con-name static type ethernet ifname ethX ipv4.addresses '172.25.250.111/24' ipv4.gateway '172.25.250.254' ipv4.dns '172.25.250.254' ipv4.method manual`
+- `nmcli connection add con-name static type ethernet ifname ethX ipv4.addresses 'IP_Address' ipv4.gateway 'Gateway' ipv4.dns 'DNS_IPAddress' ipv4.method METHOD_TYPE`
 - `nmcli connection up PROFILE_NAME`
 
 ## Summary:
