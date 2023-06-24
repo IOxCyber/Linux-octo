@@ -13,10 +13,10 @@
 
 ## Mount & Unmount a device:
 - To access the file system on a removable storage device, you must mount the storage device.
-- Identify a block device: `lsblk`
+- Identify a block device: `lsblk -fs`
 - Query the UUID[^4] of the a device: `lsblk -fp PATH`
 - `mount` instructs the operating system to attach a file system at a specified directory.
-- To `mount` the file system by `UUID` or with `device name in /PATH` dir.
+- To mount the file system: `mount DEV_PATH DIR_PATH`
 - To Unmount: `umount /PATH`
 
 
