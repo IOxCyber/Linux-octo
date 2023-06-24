@@ -82,6 +82,11 @@
 - Get the details from `/etc/nsswitch` about hosts: 'getent hosts Given_Hostname'
 - Look up the IP address of the hostname: `host Given_Hostname`
 
+## Add a Profile named `static`:
+- Connection Profile Path: `/etc/sysconfig/network-scripts`
+- `nmcli connection add con-name static type ethernet ifname ethX ipv4.addresses '172.25.250.111/24' ipv4.gateway '172.25.250.254' ipv4.dns '172.25.250.254' ipv4.method manual`
+- `nmcli connection up PROFILE_NAME`
+
 ## Summary:
 - <img width="500" alt="image" src="https://github.com/cybersome/Linux-octo/assets/40174034/12115732-4ba6-478b-bb3b-acaa737dcf92">
 
