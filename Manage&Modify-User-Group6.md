@@ -115,8 +115,11 @@
 - - b. add this to file `%GROUP_NAME  ALL=(ALL) ALL` or for User `user_name ALL=(ALL) ALL`
 
 ## Umask: USER-Mask
-- To control the default permissions assigned to newly created files and directories in `~/.bashrc, ~/.profile` or `/etc/profile, /etc/login.defs`
-- To calculate the effective permissions, the umask value is subtracted from the maximum permissions (rwx) for each user category.
+- To control the default permissions assigned to newly created files and directories, stored in `~/.bashrc, ~/.profile` or `/etc/profile, /etc/login.defs`
+- Umask acts as a permission filter, subtracting permissions from the maximum allowed set.
+> For directories, the base permissions set: (rwxrwxrwx) 0777.
+> 
+> For files, the base permissions set: 0666 (rw-rw-rw).
 - To change umask value: Append `umask VALUE` to `.bashrc`
 - To apply the changes: `source ~/.bashrc`
 
