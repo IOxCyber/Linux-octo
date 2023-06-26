@@ -114,9 +114,11 @@
 - - a. create a file in `/etc/sudoers` directory.
 - - b. add this to file `%GROUP_NAME  ALL=(ALL) ALL` or for User `user_name ALL=(ALL) ALL`
 
-- change umask value: Append `umask VALUE` to `.bashrc`
-- Source the ~/.bashrc file to update the umask: `source ~/.bashrc`
-
+## Umask: USER-Mask
+- To control the default permissions assigned to newly created files and directories in `~/.bashrc, ~/.profile` or `/etc/profile, /etc/login.defs`
+- To calculate the effective permissions, the umask value is subtracted from the maximum permissions (rwx) for each user category.
+- To change umask value: Append `umask VALUE` to `.bashrc`
+- To apply the changes: `source ~/.bashrc`
 
 # Summary:
 - Linux have 3 types of user eg. the superuser, system users, and regular users.
