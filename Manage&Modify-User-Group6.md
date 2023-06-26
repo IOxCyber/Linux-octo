@@ -115,13 +115,14 @@
 - - b. add this to file `%GROUP_NAME  ALL=(ALL) ALL` or for User `user_name ALL=(ALL) ALL`
 
 ## Umask: USER-Mask
-- To control the default permissions assigned to newly created files and directories, stored in `~/.bashrc, ~/.profile` or `/etc/profile, /etc/login.defs`
+- To control the default permissions assigned to newly created files and directories.
 - Umask acts as a permission filter, subtracting permissions from the maximum allowed set.
 > For directories, the base permissions set: (rwxrwxrwx) 0777.
 > 
 > For files, the base permissions set: 0666 (rw-rw-rw).
+- `User: ~/.bashrc`, `Global: ~/.profile` or `/etc/profile, /etc/login.defs`
 - To change umask value: Append `umask VALUE` to `.bashrc`
-- To apply the changes: `source ~/.bashrc`
+- To apply the changes: `source ~/.bashrc` or `Re-login` or `run bash`
 
 # Summary:
 - Linux have 3 types of user eg. the superuser, system users, and regular users.
