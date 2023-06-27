@@ -40,7 +40,7 @@
 <img width="756" alt="image" src="https://user-images.githubusercontent.com/40174034/236505951-184a384f-75bd-41de-a6e3-912289c61496.png">
 - 1. Top bar, 2. Activities Overview, 3. System Menu, 4. Dash, 5. Windows Overview, 6. Workspace selector, 7. Meessage try
 > `Alt+F2` key combination to open the Enter a Command.
-> 
+> To re-execute the cmd from the `history: !History_Number` 
 
 
 
