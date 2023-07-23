@@ -63,6 +63,7 @@
 - Command substitution allows the output of a command to replace the command itself on the command line. eg. echo $(cmd)
 
 ## Pathname Expansion and Pattern Matching: grep
+- `.` (To match a single character)
 - <img width="500" alt="image" src="https://github.com/cybersome/Linux-octo/assets/40174034/76f5663e-bf8b-457a-bdf3-c58c4f92f79d">
 
 ## Summary:
