@@ -59,7 +59,7 @@
 - To find out which line the cursor is currently on, use CTRL+G.
 - Exit from Vi: esc + zz or below cmds
 - - <img width="360" alt="image" src="https://user-images.githubusercontent.com/40174034/235208461-b704be9c-fb55-48dd-9ce0-48382999d33d.png">
-- 
+
 
 
 
