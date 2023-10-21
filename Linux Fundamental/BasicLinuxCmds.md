@@ -21,8 +21,8 @@
 - <img width="334" alt="image" src="https://user-images.githubusercontent.com/40174034/233781540-be38fcad-d0c1-48e6-83db-67a1d686d50f.png">
 
 
-## Searching & Matching text:
-- grep [OPTIONS] PATTERN [FILE]
+## Searching & Matching text within a file:
+- `grep [OPTIONS] PATTERN [FILE]`
 - grep (global regular expression print): command used in searching and matching text files contained in the regular expressions.
 - 
 
