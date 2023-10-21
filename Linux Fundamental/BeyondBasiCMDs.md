@@ -3,15 +3,6 @@
 - All logged-in users are notified that the system is going down.
 - A time of day in the format hh:mm or the number of minutes to delay in the format +minutes.
 
-## Network Configuration:
-- `ifconfig [OPTIONS]`
-- 
-> The iwconfig command is similar to the ifconfig command, but it is dedicated to wireless network interfaces.
-> The lo device is the loopback device, a special network device used by the system when sending network-based data to itself.
-- `ping ipaddress/hostname`
-- The ping command is used to verify connectivity between two computers.
-
-
 ## Viewing Processes:
 - `Running a command results in something called a process, Every process run with user's privileges.`
 - Users who have administrative privileges can control any user processes, including stopping any user process.
