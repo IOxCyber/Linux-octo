@@ -46,12 +46,12 @@
 - <img width="500" alt="image" src="https://github.com/cybersome/Linux-octo/assets/40174034/796cb226-613e-4d66-97ca-24d33594c5e9">
 
 ## Brace Expansion:
-- Brace expansion is used to generate discretionary strings of characters.
+- `Brace expansion {..}` is used to generate discretionary strings of characters.
 - <img width="500" alt="image" src="https://github.com/cybersome/Linux-octo/assets/40174034/6f15d833-b520-482a-868c-87a70159d994">
 > A practical use of brace expansion is to quickly create multiple files or directories.
 
 ## Tilde Expansion:
-- The tilde character (~), matches the current user's home directory.
+- The `tilde character (~)`, matches the current user's home directory.
 - <img width="500" alt="image" src="https://github.com/cybersome/Linux-octo/assets/40174034/e9781855-db1d-40d7-8554-10a0e0b89b24">
 
 ## Variable Expansion:
