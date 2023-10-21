@@ -1,7 +1,7 @@
 ## Gist of Vi or Vim
 - To enter to edit mode: `press i or insert key`
 - To exit from edit mode: `Esc`
-- Write & Exit: `:wq or ZZ`
+- Write & Exit: `:wq or shift+zz`
 - Quit without saving changes: `:q!`
 
 ### Gist of Nano
