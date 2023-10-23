@@ -1,3 +1,5 @@
+> Command Format: command [options…][arguments…]
+> 
 ## Network Configuration:
 - `ifconfig [OPTIONS]`
 > The iwconfig command is similar to the ifconfig command, but it is dedicated to wireless network interfaces.
@@ -6,8 +8,7 @@
 - The ping command is used to verify connectivity between two computers.
 
 ## SSH Command:
-
-> Command Format: command [options…][arguments…]
+## Telnet Command:
 
 ## Utility Commands:
 1. wget: 
