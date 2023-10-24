@@ -22,5 +22,11 @@
 - Wget is a simple transfer utility, while curl offers so much more.
 - eg. curl [options] [URL...]
 
-3. 
+3. nc or ncat:
+- nc (netcat) is a traditional networking utility.
+- `Syntex: nc -l -p <port>`
+- ncat is an enhanced version of nc that is part of the Nmap suite of network tools.
+- `Syntex: ncat -l -p <port>`
+
+4. 
 
