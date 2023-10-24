@@ -19,7 +19,6 @@
      To return quickly to "Directory A," you can use the cd - command.
      ```
  
-
 ## 4. **{}** (Curly Braces):
    - **Definition**: Used for grouping items or creating sequences.
    - **Syntax**: `{item1,item2}` or `{start..end}`.
@@ -43,7 +42,7 @@
    - **Example**: `\n` represents a newline character; `\$` escapes the dollar sign.
    - **Usage**: Escapes special characters in strings, paths, or regular expressions, and is used for control characters.
 
-## 8. ***** (Asterisk/Star):
+## 8. ` * (Asterisk/Star)`:
    - **Definition**: Represents zero or more characters in glob patterns.
    - **Syntax**: Used in filename matching, e.g., `*.txt` matches all text files.
    - **Example**: `ls *.jpg` lists all files with the ".jpg" extension.
