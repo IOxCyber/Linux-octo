@@ -1,3 +1,0 @@
-Find
-Locate
-grep
