@@ -1,19 +1,24 @@
 ## 1. **~** (Tilde):
-   - **Definition**: Represents the user's home directory.
+   - **Definition**: Represents the `user's home directory.`
    - **Syntax**: Usually followed by a username (e.g., `~username`) or used alone (`~`) for the current user's home directory.
    - **Example**: `~user1` represents the home directory of "user1."
    - **Common Usage**: Quick access to the home directory.
 
 ## 2. **. (Period or Dot)**:
-  - **Meaning**: Represents the current directory.
+  - **Meaning**: Represents the `current directory.`
   - **Example**: `./script.sh` executes a script in the current directory.
   - **Usage**: Used to refer to the current directory in file paths and commands.
 
 ## 3. **-** (Hyphen/Minus):
-   - **Definition**: A command-line option or used in file/directory names.
-   - **Syntax**: Typically precedes command options (e.g., `-h`) or appears in file/directory names.
-   - **Example**: `ls -l` lists files in long format; `my-file.txt` is a filename with a hyphen.
-   - **Common Usage**: Used for command options or in filenames.
+   - **Definition**: `useful for toggling between two working directories`
+   - **Syntax**: `cd -`
+     ```
+   - **Example**: change your current working directory to the directory you were in just before the current one.
+     You start in "Directory A."
+     You use the cd command to navigate to "Directory B."
+     To return quickly to "Directory A," you can use the cd - command.
+     ```
+ 
 
 ## 4. **{}** (Curly Braces):
    - **Definition**: Used for grouping items or creating sequences.
