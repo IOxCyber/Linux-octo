@@ -1,7 +1,6 @@
-## Shutting Down:
-- `shutdown [OPTIONS] TIME [MESSAGE]`
-- All logged-in users are notified that the system is going down.
-- A time of day in the format hh:mm or the number of minutes to delay in the format +minutes.
+## System/Os Configuration:
+- `hostnamectl`
+- `lsb_release -a`
 
 ## Viewing Processes:
 - `Running a command results in something called a process, Every process run with user's privileges.`
@@ -9,7 +8,6 @@
 - `ps`
 - <img width="222" alt="image" src="https://user-images.githubusercontent.com/40174034/234070764-149beb71-82ce-4659-b69c-17a54926e737.png">
 - The `ps -e & -f` option will display every process & more verbose details
-
 
 ## Package Management:
 - Package management is a system by which software can be installed, updated, queried or removed from a filesystem.
@@ -51,7 +49,10 @@
 - Exit from Vi: esc + zz or below cmds
 - - <img width="360" alt="image" src="https://user-images.githubusercontent.com/40174034/235208461-b704be9c-fb55-48dd-9ce0-48382999d33d.png">
 
-
+## Shutting Down:
+- `shutdown [OPTIONS] TIME [MESSAGE]`
+- All logged-in users are notified that the system is going down.
+- A time of day in the format hh:mm or the number of minutes to delay in the format +minutes.
 
 
 
