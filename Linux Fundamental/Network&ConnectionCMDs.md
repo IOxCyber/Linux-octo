@@ -7,9 +7,6 @@
 - `ping ipaddress/hostname`
 - The ping command is used to verify connectivity between two computers.
 
-## SSH Command:
-## Telnet Command:
-
 ## Utility Commands:
 1. wget: 
 - stands for web get. The wget is a free non-interactive file downloader command. 
