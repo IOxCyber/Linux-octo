@@ -8,6 +8,8 @@
 # To initiate an SSL/TLS client connection to a specific server:
 
 openssl s_client -connect 127.0.0.1:30001
+
+The s_client in the openssl command refers to the OpenSSL client, and the -connect option is used to specify the host and port to connect to.
 ```
 
 ## **Basic OpenSSL Commands:**
