@@ -4,6 +4,10 @@
    - **Example**: `~user1` represents the home directory of "user1."
    - **Common Usage**: Quick access to the home directory.
 
+## **; (Semi-Colon)**:
+   - **Running the two Queries in same line**
+   - **Example**: `ping -c3 192.168.0.1 ; ls -a 
+
 ## 2. **. (Period or Dot)**:
   - **Meaning**: Represents the `current directory.`
   - **Example**: `./script.sh` executes a script in the current directory.
