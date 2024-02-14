@@ -20,7 +20,9 @@
 - eg. curl [options] [URL...]
 
 3. nc or ncat:
-- nc (netcat) is a traditional networking utility.
+- nc (netcat) used for reading from and writing to network connections.
+- For example, to transfer a file from one computer to another using nc, you can run `nc -l -p <port> > file.txt` on the receiving end
+- and `nc <receiver_ip> <port> < file.txt` on the sending end.
 - `Syntex: nc -l -p <port>`
 - ncat is an enhanced version of nc that is part of the Nmap suite of network tools.
 - `Syntex: ncat -l -p <port>`
