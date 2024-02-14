@@ -26,6 +26,3 @@
 - `Syntex: nc -l -p <port>`
 - ncat is an enhanced version of nc that is part of the Nmap suite of network tools.
 - `Syntex: ncat -l -p <port>`
-
-4. 
-
