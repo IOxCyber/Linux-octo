@@ -9,6 +9,7 @@ Here are some common Linux commands for remote access and file transfer, along w
    - **Use Case Example**: Securely connect to a remote server:
      ```
      ssh username@hostname
+     ssh admin@192.168.0.0
      ```
 
 2. **Telnet**:
@@ -20,10 +21,11 @@ Here are some common Linux commands for remote access and file transfer, along w
    - **Use Case Example**: Connect to a remote device over an unencrypted connection:
      ```
      telnet hostname
+     telnet 192.168.0.0
      ```
 
 3. **SCP (Secure Copy)**:
-   - **Definition**: `For securely copying files between a local and a remote host or between two remote hosts.`
+   - **Definition**: `For securely copying files between a local and a remote host or between two remote hosts using ssh`
    - **Basic Syntax**:
      ```
      scp [OPTIONS] [SOURCE] [DESTINATION]
