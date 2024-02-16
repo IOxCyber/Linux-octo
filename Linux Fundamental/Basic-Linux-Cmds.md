@@ -11,7 +11,7 @@
 
 ## Navigate through filesystem
 - pwd: print working dir
-- dot (.) = Current directory
+- 'dot (.) = Current directory'
 - Tilt (~) = Home directory of the current user
 - Hyphen (-) = Root user
 - <img width="361" alt="image" src="https://user-images.githubusercontent.com/40174034/233780403-96276cf9-4f9c-4cc6-a935-8ee899584d20.png">
