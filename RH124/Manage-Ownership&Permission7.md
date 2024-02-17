@@ -29,7 +29,7 @@
 - If you create a regular file, then its initial octal permissions are 0666 (-rw-rw-rw-).
 - The system's `default umask values` (umask) for Bash shell users are defined in the `/etc/login.defs` and in the `/etc/bashrc` file.
 - <img width="500" alt="image" src="https://github.com/cybersome/Linux-octo/assets/40174034/3788c4d8-e338-4d0c-ae81-ce455296032b">
-- To change deault umask for a user: `echo "umask 007" >> ~/.bashrc`
+- To change default umask for a user: `echo "umask 007" >> ~/.bashrc`
 
 
 ## Summary:
