@@ -25,7 +25,25 @@ Also,
 
 
 ## 3. Viewing Dynamic/Real-Time Processes: `top` `htop`
+- Shows the summary information of the system and the list of processes or threads which are currently managed by the Linux Kernel.
+- `htop` is more human-readable version, generally not included.
 
+```
+PID: Shows task’s unique process id.
+PR: The process’s priority. The lower the number, the higher the priority.
+VIRT: Total virtual memory used by the task.
+USER: User name of owner of task.
+%CPU: Represents the CPU usage.
+TIME+: CPU Time, the same as ‘TIME’, but reflecting more granularity through hundredths of a second.
+SHR: Represents the Shared Memory size (kb) used by a task.
+NI: Represents a Nice Value of task. A Negative nice value implies higher priority, and positive Nice value means lower priority.
+%MEM: Shows the Memory usage of task.
+RES: How much physical RAM the process is using, measured in kilobytes.
+COMMAND: The name of the command that started the process.
+```
+> You can kill a process by pressing ‘k‘ option in running top command without exiting from top window after finding PID of process.
+>
+> Secure Mode : Use top in Secure mode. `top -s`
 
 # To Kill a Process:
 - In Linux, you can end a process using the `kill` command or its variants. Here's how to do it:
