@@ -4,7 +4,7 @@
    - **Example**: `~user1` represents the home directory of "user1."
    - **Common Usage**: Quick access to the home directory.
 
-## **; (Semi-Colon)**:
+  **; (Semi-Colon)**:
    - **Running the two Queries in same line**
    - **Example**: `ping -c3 192.168.0.1 ; ls -a 
 
