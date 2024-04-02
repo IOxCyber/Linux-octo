@@ -2,13 +2,6 @@
 - `hostnamectl`
 - `lsb_release -a`
 
-## Viewing Processes:
-- `Running a command results in something called a process, Every process run with user's privileges.`
-- Users who have administrative privileges can control any user processes, including stopping any user process.
-- `ps`
-- <img width="222" alt="image" src="https://user-images.githubusercontent.com/40174034/234070764-149beb71-82ce-4659-b69c-17a54926e737.png">
-- The `ps -e & -f` option will display every process & more verbose details
-
 ## Package Management:
 - Package management is a system by which software can be installed, updated, queried or removed from a filesystem.
 ### Installing Packages
