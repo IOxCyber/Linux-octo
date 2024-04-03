@@ -1,5 +1,5 @@
-> Command Format: command [options…][arguments…]
-> 
+### Command Format: command [options…][arguments…]
+
 ## Network Configuration:
 - `ifconfig [OPTIONS]`
 > The iwconfig command is similar to the ifconfig command, but it is dedicated to wireless network interfaces.
@@ -21,8 +21,12 @@
 
 3. nc or ncat:
 - nc (netcat) used for reading from and writing to network connections.
-- For example, to transfer a file from one computer to another using nc, you can run `nc -l -p <port> > file.txt` on the receiving end
-- and `nc <receiver_ip> <port> < file.txt` on the sending end.
-- `Syntex: nc -l -p <port>`
+- It can operate in both client and server modes, allowing for various network-related tasks such as file transfer, port scanning, and network troubleshooting.
+- For example, to transfer a file from one computer to another using nc - `Syntex: nc -l -p <port>`
+1. On the receiving end (server), you use `nc -l -p <port> > file.txt` to listen for incoming connections on a specified port (<port>) and redirect the received data to a file (file.txt).
+2. On the sending end (client), you use nc <receiver_ip> <port> < file.txt to connect to the server at the specified IP address (<receiver_ip>) and port, and then send the contents of the file (file.txt) to the server.
+
+> The client initiates communication by making requests to the server & The server listens for incoming connections and responds to client requests.
+
 - ncat is an enhanced version of nc that is part of the Nmap suite of network tools.
 - `Syntex: ncat -l -p <port>`
