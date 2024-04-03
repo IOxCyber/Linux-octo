@@ -13,10 +13,8 @@
 
 3. **tar**:
    - Purpose: Create tar archives.
-   - Syntax: 
+   - Syntax/Example: 
      - Create: `tar -cvf <archive.tar> <file1> <file2> ...`
      - Extract: `tar -xvf <archive.tar>`
-   - Example: 
-     - Create: `tar -cvf archive.tar file1.txt file2.txt`
-     - Extract: `tar -xvf archive.tar`
+
 
