@@ -18,4 +18,5 @@ This repo is all about Linux basic &amp; Administration activities. Learning fro
 - [Protocols SSH, Openssl](https://github.com/IOxCyber/Linux-octo/tree/59040aa1dae6cb55b43cfb8b4533a5b3fa060460/Linux%20Fundamental/Protocols-Indepth)
 - [In-built Editors](https://github.com/IOxCyber/Linux-octo/blob/59040aa1dae6cb55b43cfb8b4533a5b3fa060460/Linux%20Fundamental/Inbuild-Editors.md)
 - [Every Special Symbol](https://github.com/IOxCyber/Linux-octo/blob/59040aa1dae6cb55b43cfb8b4533a5b3fa060460/Linux%20Fundamental/Special-Symbols.md)
--  
+- [Compressing Files](https://github.com/IOxCyber/Linux-octo/blob/cc1fa5939c362572d2f491d9009a97f541a888c9/Linux%20Fundamental/Protocols-Indepth/zip-gzip-tar.md)
+- [Decompressing Files](https://github.com/IOxCyber/Linux-octo/blob/cc1fa5939c362572d2f491d9009a97f541a888c9/Linux%20Fundamental/Protocols-Indepth/Unzip-Gunzip-tar.md)
