@@ -1,5 +1,5 @@
 ## Indepth Topics:
-- [Here]()
+- [Find Here](https://github.com/IOxCyber/Linux-octo/blob/9e793c7daf9a0c2f963836c19f7cde6d93318f09/Linux%20Fundamental/Protocols-Indepth/zip-gzip-tar.md)
 
 
 ---
