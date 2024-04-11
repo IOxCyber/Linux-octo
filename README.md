@@ -22,4 +22,4 @@ This repo is all about Linux basic &amp; Administration activities. Learning fro
 - [Decompressing Files](https://github.com/IOxCyber/Linux-octo/blob/cc1fa5939c362572d2f491d9009a97f541a888c9/Linux%20Fundamental/Protocols-Indepth/Unzip-Gunzip-tar.md)
 - [Changing Ownership/Permission](https://github.com/IOxCyber/Linux-octo/blob/c8dee9747edeecba0676277e617844f7d297e272/RH124/Manage-Ownership%26Permission7.md#L13)
 - [Compress-Archive-Files](https://github.com/IOxCyber/Linux-octo/blob/9e793c7daf9a0c2f963836c19f7cde6d93318f09/Linux%20Fundamental/Protocols-Indepth/zip-gzip-tar.md)
-- [De-Compress-Archive-Files]()
+- [De-Compress-Archive-Files](https://github.com/IOxCyber/Linux-octo/blob/61d583f7f49d6f7d3021ae2c69c176d4e35235e2/Linux%20Fundamental/Protocols-Indepth/Unzip-Gunzip-tar.md)
