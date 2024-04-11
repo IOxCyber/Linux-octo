@@ -1,6 +1,6 @@
 ### Compression Commands: 
 
-1. **tar**: `Bundles files and directories into a single NON-COMPRESSED archive file`
+## 1. **tar**: `Bundles files and directories into a single NON-COMPRESSED archive file`
    - The name "tar" stands for "tape archive," as it was originally used to create archives on tape drives.
    - Purpose: `to create, view, extract, and manipulate tar archives of files & dirs`
    - Syntax/Example: 
@@ -16,22 +16,22 @@
 
 
 
-2. **zip**: `Compress multiple files and directories into a single compressed archive`
+## 2. **zip**: `Compress multiple files and directories into a single compressed archive`
    - Purpose: Compress files and directories into a ZIP archive.
    - Syntax: `zip [options] <zipfile> <file1> <file2> ...`
    - Example: `zip archive.zip file1.txt file2.txt`
    - Options: `-r`, `-q`, `-9`, etc.
 
 
-3. **gzip**: `Compressing individual files`
+## 3. **gzip**: `Compressing individual files`
    - Purpose: Compress files using gzip compression.
    - Syntax: `gzip <file>`
    - Example: `gzip myfile.txt`
    - Decompression: `gzip -d <file>.gz`
 
-    
-## tar vs zip vs gzip:
-
+---
+> ## tar vs zip vs gzip:
+---
 | Feature              | tar                                      | zip                                      | gzip                                     |
 |----------------------|------------------------------------------|------------------------------------------|------------------------------------------|
 | Purpose              | Archive files and directories            | Archive files and directories            | Compress files                            |
