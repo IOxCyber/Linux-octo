@@ -8,6 +8,7 @@
      - Stop a service: `sudo service apache2 stop`
      - Restart a service: `sudo service apache2 restart`
      - Check the status of a service: `sudo service apache2 status`
+     - Command to List All Services: `service --status-all`
 
 2. **`systemctl` Command**:
    - The `systemctl` command is a `more modern and feature-rich command used for managing system services` on Linux systems that use the systemd init system.
@@ -17,6 +18,9 @@
      - Stop a service: `sudo systemctl stop apache2`
      - Restart a service: `sudo systemctl restart apache2`
      - Check the status of a service: `sudo systemctl status apache2`
+     - Command to List All Services: `systemctl list-units --type=service --all`
+     - Command to List Only Active Services: `systemctl list-units --type=service`
+     - Command to List All Service Files: `systemctl list-unit-files --type=service`
 
 3. **Key Differences**:
    - **Syntax**: The syntax for using `service` and `systemctl` commands differs. `service` typically uses `service <service-name> <action>`, while `systemctl` uses `systemctl <action> <service-name>`.
