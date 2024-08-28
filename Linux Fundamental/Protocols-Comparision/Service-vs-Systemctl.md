@@ -1,6 +1,5 @@
 # Feature Rich & Modern: `systemclt > service`
 
-
 1. **`service` Command**:
    - The `service` command is a `legacy command used for managing system services` on Linux systems. It provides a simple and user-friendly interface for starting, stopping, restarting, and checking the status of services.
    - It is commonly `used on older Linux` distributions or distributions that use the System V (SysV) init system.
