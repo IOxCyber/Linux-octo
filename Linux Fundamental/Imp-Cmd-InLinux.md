@@ -30,6 +30,7 @@
    - **Update Package List**: `sudo apt update`
    - **Upgrade Installed Packages**: `sudo apt upgrade`
    - **Remove a Package**: `sudo apt remove <package-name>`
+   - List out all Installed Packages: `dpkg --list`
 
 5. **Networking**:
    - **Show Network Interfaces**: `ip addr show`
@@ -39,7 +40,7 @@
    - **Open Port in Firewall**: `sudo ufw allow <port>/tcp`
 
 6. **System Information**:
-   - **View System Information**: `uname -a`
+   - **View System Information**: `uname -a` , `-r for Kernel` 
    - **Check System Load**: `top` or `htop`
    - **Check Disk Usage**: `df -h`
    - **Check Memory Usage**: `free -h`
