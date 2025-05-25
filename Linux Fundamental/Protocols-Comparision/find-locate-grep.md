@@ -33,6 +33,18 @@
        ```
    - `grep` can be used to search within the content of text files and provides options for regular expression searching.
 
+
+| Tool / Cmd   | Most Common Options                                     | Syntax                           | Real-Life Example                                                                   |                         |                                          |
+| ------------ | ------------------------------------------------------- | -------------------------------- | ----------------------------------------------------------------------------------- | ----------------------- | ---------------------------------------- |
+| **`grep`**   | `-r`, `-i`, `-l`, `--color`                             | `grep [options] pattern file(s)` | `grep -ri "error" /var/log` → Recursively search "error" (case-insensitive) in logs |                         |                                          |
+| **`locate`** | `-i`, `-c`, `--limit`                                   | `locate [options] filename`      | `locate -i passwd` → Find any file with "passwd" in name (case-insensitive)         |                         |                                          |
+| **`find`**   | `-name`, `-type`, `-mtime`, `-exec`, `-size`, `-delete` | `find [path] [options]`          | `find . -type f -name "*.log"` → Find all `.log` files under current dir            |                         |                                          |
+| **`xargs`**  | `-n`, `-I`, `-0`                                        | \`command                        | xargs \[options] other\_command\`                                                   | \`find . -name "\*.log" | xargs rm`→ Delete all`.log\` files found |
+| **`fd`**     | `-e`, `-x`, `-t`, `-H`, `-i`                            | `fd [pattern] [path]`            | `fd error .` → Search files containing "error" in name                              |                         |                                          |
+| **`ack`**    | `--python`, `--type`, `--ignore-dir`                    | `ack [options] pattern`          | `ack "def " --python` → Find Python function definitions                            |                         |                                          |
+| **`ag`**     | `-i`, `--hidden`, `--stats`, `--ignore`                 | `ag [pattern] [path]`            | `ag -i "password"` → Case-insensitive search for "password"                         |                         |                                          |
+| **`rg`**     | `-i`, `-t`, `--files`, `--hidden`, `--color`            | `rg [pattern] [path]`            | `rg "config"` → Super-fast search for "config" in current folder                    |                         |                                          |
+
 ## In summary:
 - Use `find` when you need to locate files based on various criteria, such as file attributes (e.g., ownership, size, type) or directory structure.
 - Use `locate` when you need to quickly find files by name, and you don't require advanced search criteria. Keep in mind that it relies on a pre-built database, so it may not find recently added files.
