@@ -13,13 +13,17 @@ This repo is all about Linux basic &amp; Administration activities. Learning fro
 - Command Usage Format: `Cmd -option PATH_to_File or File_Name`
 
 ## Topics goto Links:
-- [Every Basic CMD ever](https://github.com/IOxCyber/Linux-octo/blob/718f4686d01466feef804c4ee74c84b41826578c/Linux%20Fundamental/Basic-Linux-Cmds.md)
-- [Protocols vs Protocols](https://github.com/IOxCyber/Linux-octo/tree/207f8ba6e3bad3b2ea493de1a68a297c63c90fc1/Linux%20Fundamental/Protocols-Comparision)
-- [Protocols SSH, Openssl](https://github.com/IOxCyber/Linux-octo/tree/59040aa1dae6cb55b43cfb8b4533a5b3fa060460/Linux%20Fundamental/Protocols-Indepth)
-- [In-built Editors](https://github.com/IOxCyber/Linux-octo/blob/59040aa1dae6cb55b43cfb8b4533a5b3fa060460/Linux%20Fundamental/Inbuild-Editors.md)
-- [Every Special Symbol](https://github.com/IOxCyber/Linux-octo/blob/59040aa1dae6cb55b43cfb8b4533a5b3fa060460/Linux%20Fundamental/Special-Symbols.md)
-- [Compressing Files](https://github.com/IOxCyber/Linux-octo/blob/cc1fa5939c362572d2f491d9009a97f541a888c9/Linux%20Fundamental/Protocols-Indepth/zip-gzip-tar.md)
-- [Decompressing Files](https://github.com/IOxCyber/Linux-octo/blob/cc1fa5939c362572d2f491d9009a97f541a888c9/Linux%20Fundamental/Protocols-Indepth/Unzip-Gunzip-tar.md)
+- [Every Basic CMD ever](https://github.com/IOxCyber/Linux-octo/blob/main/Linux%20Fundamental/Basic-Linux-Cmds.md)
+- [In-built Editors](https://github.com/IOxCyber/Linux-octo/blob/main0/Linux%20Fundamental/Inbuild-Editors.md)
+- [Every Special Symbol](https://github.com/IOxCyber/Linux-octo/blob/main/Linux%20Fundamental/Special-Symbols.md)
+
+- [Protocols vs Protocols](https://github.com/IOxCyber/Linux-octo/tree/main/Linux%20Fundamental/Protocols-Comparision)
+- [Protocols SSH, Openssl](https://github.com/IOxCyber/Linux-octo/tree/main/Linux%20Fundamental/Protocols-Indepth)
+
 - [Changing Ownership/Permission](https://github.com/IOxCyber/Linux-octo/blob/c8dee9747edeecba0676277e617844f7d297e272/RH124/Manage-Ownership%26Permission7.md#L13)
-- [Compress-Archive-Files](https://github.com/IOxCyber/Linux-octo/blob/9e793c7daf9a0c2f963836c19f7cde6d93318f09/Linux%20Fundamental/Protocols-Indepth/zip-gzip-tar.md)
-- [De-Compress-Archive-Files](https://github.com/IOxCyber/Linux-octo/blob/61d583f7f49d6f7d3021ae2c69c176d4e35235e2/Linux%20Fundamental/Protocols-Indepth/Unzip-Gunzip-tar.md)
+
+
+- [Compressing Files](https://github.com/IOxCyber/Linux-octo/blob/main/Linux%20Fundamental/Protocols-Indepth/zip-gzip-tar.md)
+- [Decompressing Files](https://github.com/IOxCyber/Linux-octo/blob/main/Linux%20Fundamental/Protocols-Indepth/Unzip-Gunzip-tar.md)
+- [Compress-Archive-Files](https://github.com/IOxCyber/Linux-octo/blob/main/Linux%20Fundamental/Protocols-Indepth/zip-gzip-tar.md)
+- [De-Compress-Archive-Files](https://github.com/IOxCyber/Linux-octo/blob/main/Linux%20Fundamental/Protocols-Indepth/Unzip-Gunzip-tar.md)
